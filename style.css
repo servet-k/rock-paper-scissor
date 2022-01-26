@@ -1,0 +1,70 @@
+.container,.score {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top: 80px;
+}
+.game{
+    display:flex;
+    flex-direction: column;
+}
+.header, .result,.score{
+    text-align:center;
+    margin-top:40px;
+}
+
+img{
+box-shadow: 0px 10px 50px blue;
+}
+
+button:focus{
+    background-color:pink;
+}
+button {
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+table,th,td {
+    border:1px solid black;
+    padding:10px;
+    align-items: center;
+    background-image: linear-gradient(to bottom left,rgb(233, 150, 150),rgb(143, 72, 72));
+    color:white;
+    font-weight: 800;
+    width:50%;
+    font-size: 20px;
+}
+body{
+    background-image: linear-gradient(to bottom right,rgb(211, 194, 194),rgb(143, 224, 238));
+}
+.score {
+    width: 100%;
+}
+.reset{
+    display:flex;
+    justify-content:center;
+    margin-top: 40px;
+    
+}
+.header {
+    font: 40px bold;
+    color:red;
+}
+.result{
+    display:flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    font-weight: bold;
+    font-style: italic;
+    color:white;
+    
+    margin: 20px 100px 20px 100px;
+    justify-content: center;
+}
+.reset button{
+    font-size: larger;
+}

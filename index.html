@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="test.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="test.js" defer></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="header">Paper-Rock-Scissors Game</div>
+    <div class="reset">
+        <button  onClick=reset()>Replay</button>
+    </div>
+    <div class="container">
+        <div class="game">
+            <img id="rock" src="https://www.pngitem.com/pimgs/m/109-1094400_rock-paper-scissors-png-clipart-rock-paper-scissor.png" height="200" width="200" onclick="rps(this)"><br>
+            <button id="btn1" value="rock">rock</button>
+        </div>
+        <div class="game">
+            <img id="scissors" src="https://www.pinclipart.com/picdir/big/280-2802170_paper-icon-clipart.png" height="200" width="200" onclick="rps(this)"><br>
+            <button id="btn2" value="scissors">scissors</button>
+        </div>   
+        <div class="game">
+            <img id="paper" src="https://www.pngitem.com/pimgs/m/266-2667252_transparent-rock-paper-scissors-clipart-rock-paper-scissors.png" height="200" width="200" onclick="rps(this)"><br>
+            <button id="btn3" value="paper">paper</button>
+        </div>
+    </div>
+    <div class="result"></div>
+
+    </div>   
+    <div class="score">
+        <table>
+            <tr>
+               <th>Player Score</th> 
+               <th>Computer Score</th>
+            </tr>
+            <tr>
+                <td class="player"></td>
+                <td class="computer"></td>
+            </tr>
+
+
+
+        </table>
+
+
+    </div>
     
-</body>
 </html>
