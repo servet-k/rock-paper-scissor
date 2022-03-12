@@ -1,2 +1,2 @@
 # rock-paper-scissor
-results in console.log
+https://servet-k.github.io/rock-paper-scissors/
